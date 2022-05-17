@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 div.header {
@@ -13,12 +14,43 @@ div.header {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    padding: 10px 20vw 10px 20vw;
+    padding: 10px 15vw 100px 15vw;
 }
 
+div.hero-section {
+    background-color: #1F2937;
+    display: flex;
+    padding: 0px 15vw 50px 15vw;
+    align-items: center;
+    
+}
 
+div.hero-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 40vw;
+    
+}
 
-a {
+.hero-img {
+    width: 600px;
+    height: auto;
+    padding-left: 20px;
+    margin: 0px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header a {
     text-decoration: none;
     color: white;
 }
@@ -36,4 +68,24 @@ list-style: none;
 
 li {
     margin: 0px 15px 0px 15px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero-content button {
+    color: white;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 10px;
+    max-width: 120px;
+    padding: 10px;
+    font-weight: 800;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
 }
