@@ -150,3 +150,53 @@ p.quote-author {
     align-self: flex-end;
     padding-right: 30px;
 }
+
+.action-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 15vw 100px 15vw;
+}
+
+.action-content {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    min-height: 10vw;
+    min-width: 70vw;
+    padding: 30px 100px 30px 100px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.action-content-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-button {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-left: 100px;
+    padding: 10px 0px 10px 0px;
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 40px 10px 40px;
+
+}
+
+.action-title {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.action-text {
+    font-size: 18px;
+    font-weight: 300;
+}
