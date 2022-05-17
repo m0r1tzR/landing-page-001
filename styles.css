@@ -100,7 +100,7 @@ p {
 .card-container {
     display: flex;
     justify-content: space-around;
-    min-width: 50vw;
+    min-width: 30vw;
 
 }
 
@@ -141,7 +141,7 @@ p {
     font-style: italic;
     font-weight: 100;
     justify-content: center;
-    padding: 100px 15vw 100px 15vw;
+    padding: 100px 20vw 100px 20vw;
 }
 
 p.quote-author {
@@ -164,8 +164,8 @@ p.quote-author {
     flex-direction: row;
     background-color: #3882F6;
     min-height: 10vw;
-    min-width: 70vw;
-    padding: 30px 100px 30px 100px;
+    min-width: 55vw;
+    padding: 30px 70px 30px 70px;
     box-sizing: border-box;
     color: white;
     border-radius: 15px;
@@ -175,6 +175,7 @@ p.quote-author {
 .action-content-left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .action-button {
@@ -199,4 +200,19 @@ p.quote-author {
 .action-text {
     font-size: 18px;
     font-weight: 300;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 15vw 40px 15vw;
+    color: white;
+}
+
+.footer-reference a {
+    text-decoration: none;
+    color: white;
 }
